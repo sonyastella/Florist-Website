@@ -1,0 +1,63 @@
+.about-us-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+  background-color: #efe6dd; /* Match the background color */
+  text-align: center; /* Center the heading */
+  
+  
+}
+
+.about-us-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #5f5e7a; /* Matching the font color used */
+  margin-bottom: 50px;
+  font-family: 'Alice';
+  
+}
+
+.about-us-content {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Align items vertically at the same height */
+  gap: 50px;
+  flex-wrap: nowrap; /* Prevent wrapping to keep the text and image side by side */
+  margin-top: 40px; /* Add margin-top to create space above the content */
+  
+}
+
+.about-us-text {
+  max-width: 50%;
+  font-size: 1.25rem;
+  color: #5f5e7a; /* Matching the font color used */
+  text-align: left; /* Align text to the left */
+  
+}
+
+.about-us-image {
+  max-width: 40%; /* Adjust as needed */
+  flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.about-us-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .about-us-content {
+    flex-direction: column;
+  }
+
+  .about-us-text,
+  .about-us-image {
+    max-width: 100%;
+    text-align: center; /* Center text on mobile */
+  }
+}
+
+
+
+  

@@ -1,0 +1,85 @@
+/* src/components/Header/Header.css */
+.header {
+  background-color: #efe6dd;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0 auto; /* Center the header horizontally */
+  width: 100%; /* Ensure header takes full width */
+  grid-template-columns: 1fr 1fr;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center content horizontally */
+
+}
+
+.container {
+  width: 100%;
+  color: #ffffff;
+  background-color: #efe6dd;
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 600px;
+  height: auto;
+}
+
+
+nav ul {
+  list-style: none;
+  display:flex;
+  justify-content: center;
+  padding: 0;
+  margin: 10px 0 0 0;
+  flex-wrap: wrap; /* Allow wrapping of items */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #5f5e7a;
+  text-decoration: none;
+  padding: 5px 50px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .header {
+    padding: 5px;
+  }
+
+  .logo img {
+    width: 80px; /* Adjust image size for mobile */
+  }
+
+  .logo h1 {
+    font-size: 1.5rem; /* Adjust text size for mobile */
+  }
+
+  nav ul {
+    flex-direction: column; /* Stack items vertically on mobile */
+  }
+
+  nav ul li {
+    margin: 10px 0; /* Adjust margin for mobile */
+  }
+
+  nav ul li a {
+    padding: 3px 8px;
+  }
+}
