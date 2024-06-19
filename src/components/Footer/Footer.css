@@ -1,5 +1,4 @@
-/* src/components/Footer/Footer.css */
-.footer {
+/* .footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -30,7 +29,7 @@
     font-size: 1rem;
   }
   
-  /* src/App.css */
+
 .app-container {
     display: flex;
     flex-direction: column;
@@ -41,12 +40,11 @@
     flex: 1;
   }
   
-  /* Reset body and html margins and padding */
   body, html {
     margin: 0;
     padding: 0;
     height: 100%;
   }
   
-  /* Additional styling for Header, Footer, and other components if needed */
-  
+
+   */

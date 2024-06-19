@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 interface ApiResponse {
-  // Define the structure of your API response data here
+
 }
 
 const useFetch = (url: string) => {
@@ -28,7 +28,7 @@ const useFetch = (url: string) => {
     fetchData();
 
     return () => {
-      // Cleanup code if needed
+  
     };
   }, [url]);
 

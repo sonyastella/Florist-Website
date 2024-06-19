@@ -1,9 +1,9 @@
-.about-us-container {
+/* .about-us-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px;
-  background-color: #efe6dd; /* Match the background color */
-  text-align: center; /* Center the heading */
+  background-color: #efe6dd;
+  text-align: center; 
   
   
 }
@@ -11,7 +11,7 @@
 .about-us-heading {
   font-size: 3rem;
   font-weight: bold;
-  color: #5f5e7a; /* Matching the font color used */
+  color: #5f5e7a; 
   margin-bottom: 50px;
   font-family: 'Alice';
   
@@ -19,25 +19,23 @@
 
 .about-us-content {
   display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Align items vertically at the same height */
+  justify-content: center; 
+  align-items: center; 
   gap: 50px;
-  flex-wrap: nowrap; /* Prevent wrapping to keep the text and image side by side */
-  margin-top: 40px; /* Add margin-top to create space above the content */
-  
+  flex-wrap: nowrap; 
+  margin-top: 40px; 
 }
 
 .about-us-text {
   max-width: 50%;
   font-size: 1.25rem;
-  color: #5f5e7a; /* Matching the font color used */
-  text-align: left; /* Align text to the left */
-  
+  color: #5f5e7a;
+  text-align: left; 
 }
 
 .about-us-image {
-  max-width: 40%; /* Adjust as needed */
-  flex-shrink: 0; /* Prevent the image from shrinking */
+  max-width: 40%; 
+  flex-shrink: 0; 
 }
 
 .about-us-image img {
@@ -54,9 +52,9 @@
   .about-us-text,
   .about-us-image {
     max-width: 100%;
-    text-align: center; /* Center text on mobile */
+    text-align: center; 
   }
-}
+} */
 
 
 

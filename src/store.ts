@@ -1,4 +1,4 @@
-// src/store.ts
+
 import { configureStore } from '@reduxjs/toolkit';
 import catalogueReducer from './features/catalogue/catalogueSlice';
 

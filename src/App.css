@@ -10,7 +10,7 @@ body, html {
   padding: 0;
   background-color: #efe6dd;
   color: #333;
-  text-align: center; /* Center text by default */
+  text-align: center; 
 }
 
 .app-container {
@@ -21,7 +21,7 @@ body, html {
 
 .main-content {
   flex: 1;
-  padding-bottom: 100px; /* Make space for the footer */
+  padding-bottom: 100px; 
 }
 
 footer {

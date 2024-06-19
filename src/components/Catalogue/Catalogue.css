@@ -1,5 +1,4 @@
-/* src/components/Catalogue/Catalogue.css */
-.catalogue-container {
+/* .catalogue-container {
   padding: 80px;
   background-color: #efe6dd;
   text-align: center;
@@ -34,9 +33,9 @@
 .flower-image {
   max-width: 300%;
   max-height: 300px;
-  height: 300px; /* Fixed height to ensure consistent size */
+  height: 300px;
   border-radius: 8px;
-  object-fit: cover; /* Ensures the image covers the area and maintains aspect ratio */
+  object-fit: cover;
   
   
 }
@@ -58,4 +57,4 @@
   .flower-grid {
     grid-template-columns: 1fr;
   }
-}
+} */

@@ -1,4 +1,4 @@
-.ourTeam {
+/* .ourTeam {
   background-color: #efe6dd;
   padding: 2rem;
   margin: 0 auto;
@@ -52,7 +52,7 @@
   margin: 0;
 }
 
-/* Mobile styles */
+
 @media (max-width: 768px) {
   .ourTeam {
     padding: 10px;
@@ -63,11 +63,11 @@
   }
 
   .team-member {
-    width: 100px; /* Adjust width as needed for mobile */
+    width: 100px; 
   }
 
   .team-member img {
-    width: 80px; /* Adjust width as needed for mobile */
-    height: 80px; /* Adjust height as needed for mobile */
+    width: 80px; 
+    height: 80px; 
   }
-}
+} 
