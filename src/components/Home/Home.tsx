@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home: React.FC = () => {
   return (
-    <div className="bg-[#d8e1e9] text-center">
+    <><><div className="bg-[#d8e1e9] text-center">
       <div className="flex justify-center">
         <img src="/images/banerpic.webp" alt="Floral Arrangement" className="rounded-lg shadow-lg max-w-full" />
       </div>
@@ -25,24 +25,24 @@ const Home: React.FC = () => {
             <img src="/images/mainpic.webp" alt="Floral pic" className="w-[300px] h-[500px] rounded-lg shadow-lg object-cover" />
           </div>
         </div>
-        <h1 className="text-4xl font-bold text-[#5f5e7a] font-alice mb-10 my-40">Catalogue</h1>
-        <div className="home-content flex flex-wrap justify-center gap-8">
+      </section>
+    </div>
+      <h1 className="text-4xl font-bold text-[#5f5e7a] font-alice mb-10 my-40">Catalogue</h1><div className="home-content flex flex-wrap justify-center gap-8">
         <div className="flower-block w-full md:w-1/3 text-center p-4">
-          <img src="/images/flower4.webp" alt="Flower 1" width="200" height="300" className="w-full h-auto object-cover rounded-lg mb-4" />
+          <img src="/images/flower4.png" alt="Flower 1" className="w-[1500px] h-[250px] object-cover rounded-lg mb-4" />
           <h2 className="text-xl font-semibold text-[#5f5e7a]">Azure Elegance Bouquet</h2>
         </div>
         <div className="flower-block w-full md:w-1/3 text-center p-4">
-          <img src="/images/flower2.webp" alt="Flower 2" width="200" height="300" className="w-full h-auto object-cover rounded-lg mb-4" />
+          <img src="/images/flower2.png" alt="Flower 2" className="w-[1500px] h-[250px] object-cover rounded-lg mb-4" />
           <h2 className="text-xl font-semibold text-[#5f5e7a]">Romantic Blushing Petals</h2>
         </div>
         <div className="flower-block w-full md:w-1/3 text-center p-4">
-          <img src="/images/flower3.webp" alt="Flower 3" width="200" height="300" className="w-full h-auto object-cover rounded-lg mb-4" />
+          <img src="/images/flower3.png" alt="Flower 3" className="w-[1500px] h-[250px] object-cover rounded-lg mb-4" />
           <h2 className="text-xl font-semibold text-[#5f5e7a]">Royal Velvet Bouquet</h2>
         </div>
-      </div>
-      <a href="/catalogue" className="home-link inline-block mt-8 text-lg text-[#5f5e7a] underline">See more</a>
-      </section>
-    </div>
+      </div></>
+      <a href="/catalogue" className="home-link inline-block mt-8 text-lg text-[#5f5e7a] underline">See more</a></>
+    
   );
 };
 
