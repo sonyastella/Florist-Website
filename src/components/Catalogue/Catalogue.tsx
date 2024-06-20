@@ -12,7 +12,7 @@ const Catalogue: React.FC = () => {
       dispatch(setStatus('loading'));
       try {
         // Use the deployed Vercel URL for the API
-        const response = await fetch('json-server-api-virid-seven.vercel.app');
+        const response = await fetch('https://json-server-api-virid-seven.vercel.app/api/catalogue');
         const contentType = response.headers.get('content-type');
         
         if (contentType && contentType.includes('application/json')) {
