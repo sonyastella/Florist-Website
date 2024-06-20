@@ -14,19 +14,19 @@ const ContactUs: React.FC = () => {
           </p>
         </div>
         <div className="flex items-center p-4">
-          <img src="/images/email.png" alt="Email Icon" className="w-24 h-24 mr-4" />
+          <img src="/images/email.webP" alt="Email Icon" className="w-24 h-24 mr-4" />
           <p className="text-left text-[#5f5e7a]">ask.merizaflorist@gmail.com</p>
         </div>
         <div className="flex items-center p-4">
-          <img src="/images/insta.png" alt="Instagram Icon" className="w-24 h-24 mr-4" />
+          <img src="/images/insta.webP" alt="Instagram Icon" className="w-24 h-24 mr-4" />
           <p className="text-left text-[#5f5e7a]">@merizaflorist</p>
         </div>
         <div className="flex items-center p-4">
-          <img src="/images/phone.png" alt="Phone Icon" className="w-24 h-24 mr-4" />
+          <img src="/images/phone.webP" alt="Phone Icon" className="w-24 h-24 mr-4" />
           <p className="text-left text-[#5f5e7a]">0821-0000-0000</p>
         </div>
         <div className="flex items-center p-4">
-          <img src="/images/clock.png" alt="Clock Icon" className="w-24 h-24 mr-4" />
+          <img src="/images/clock.webP" alt="Clock Icon" className="w-24 h-24 mr-4" />
           <p className="text-left text-[#5f5e7a]">
             Opening Hours<br />
             mon - sat: 8 am - 10 pm<br />
