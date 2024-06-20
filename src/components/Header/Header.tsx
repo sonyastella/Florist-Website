@@ -5,7 +5,7 @@ const Header: React.FC = () => {
     <header className="bg-[#efe6dd] text-[#5f5e7a] py-2 w-full flex flex-col items-center justify-center">
       <div className="w-full flex flex-col items-center justify-center">
         <div className="flex flex-col items-center mb-2">
-          <img src="/images/meriza.webp" alt="Logo" className="w-full max-w-sm md:max-w-xs h-auto" />
+          <img src="/images/meriza.webp" alt="Logo" width="200" height="300" className="w-full max-w-sm md:max-w-xs h-auto" />
         </div>
         <nav>
           <ul className="list-none flex justify-center p-0 m-0 flex-wrap">
