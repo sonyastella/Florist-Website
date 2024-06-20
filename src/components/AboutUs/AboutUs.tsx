@@ -34,7 +34,7 @@ const AboutUs: React.FC = () => {
           </p>
         </div>
         <div className="about-us-image max-w-sm flex-shrink-0">
-          <img src="/images/frontpic.png" alt="About Us" className="w-[200px] h-[300px] rounded-lg shadow-lg object-cover" />
+          <img src="/images/frontpic.webp" alt="About Us" className="w-[200px] h-[300px] rounded-lg shadow-lg object-cover" />
         </div>
       </div>
 
