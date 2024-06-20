@@ -1,3 +1,4 @@
+// Import necessary modules
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState, AppDispatch } from '../../store';
@@ -44,9 +45,9 @@ const Catalogue: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 max-w-6xl mx-auto px-4">
           {items.map((item) => (
             <div key={item.id} className="text-center p-4 bg-white shadow-lg rounded-lg">
-              <img src={item.image} alt={item.name} className="w-full h-60 object-cover rounded-lg mb-4" />
+              <img src={item.image} alt={item.name} width="200" height="300" className="w-full h-auto object-cover rounded-lg mb-4" />
               <h2 className="text-xl font-semibold text-[#333]">{item.name}</h2>
-              <p className="text-lg text-[#5f5e7a] mt-2">{item.price}</p>
+              <p className="text-lg text-gray-600">{item.price}</p>
             </div>
           ))}
         </div>
