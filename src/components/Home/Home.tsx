@@ -29,15 +29,15 @@ const Home: React.FC = () => {
     </div>
       <h1 className="text-4xl font-bold text-[#5f5e7a] font-alice mb-10 my-40">Catalogue</h1><div className="home-content flex flex-wrap justify-center gap-8">
         <div className="flower-block w-full md:w-1/3 text-center p-4">
-          <img src="/images/flower4.png" alt="Flower 1" className="w-[1500px] h-[250px] object-cover rounded-lg mb-4" />
+          <img src="/images/flower4.webp" alt="Flower 1" className="w-[1500px] h-[250px] object-cover rounded-lg mb-4" />
           <h2 className="text-xl font-semibold text-[#5f5e7a]">Azure Elegance Bouquet</h2>
         </div>
         <div className="flower-block w-full md:w-1/3 text-center p-4">
-          <img src="/images/flower2.png" alt="Flower 2" className="w-[1500px] h-[250px] object-cover rounded-lg mb-4" />
+          <img src="/images/flower2.webp" alt="Flower 2" className="w-[1500px] h-[250px] object-cover rounded-lg mb-4" />
           <h2 className="text-xl font-semibold text-[#5f5e7a]">Romantic Blushing Petals</h2>
         </div>
         <div className="flower-block w-full md:w-1/3 text-center p-4">
-          <img src="/images/flower3.png" alt="Flower 3" className="w-[1500px] h-[250px] object-cover rounded-lg mb-4" />
+          <img src="/images/flower3.webp" alt="Flower 3" className="w-[1500px] h-[250px] object-cover rounded-lg mb-4" />
           <h2 className="text-xl font-semibold text-[#5f5e7a]">Royal Velvet Bouquet</h2>
         </div>
       </div></>
