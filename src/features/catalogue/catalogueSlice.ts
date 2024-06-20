@@ -15,12 +15,12 @@ interface CatalogueState {
 
 const initialState: CatalogueState = {
   items: [
-    { "id": 1, "name": "Royal Velvet Bouquet", "image": "/images/flower2.png", "price": "Rp. 2,800,000" },
-    { "id": 2, "name": "Romantic Blushing Petals", "image": "/images/flower3.png", "price": "Rp. 1,000,000" },
-    { "id": 3, "name": "Beautiful Rainbow Baby Breathe", "image": "/images/flower4.png", "price": "Rp. 1,500,000" },
-    { "id": 4, "name": "Pink Blush Baby Breathe Bouquet", "image": "/images/flower5.png", "price": "Rp. 1,200,000" },
-    { "id": 5, "name": "Azure Elegance Bouquet", "image": "/images/flower6.png", "price": "Rp. 1,700,000" },
-    { "id": 6, "name": "Ocean Blue Baby Breathe Bouquet", "image": "/images/flower7.png", "price": "Rp. 1,450,000" }
+    { "id": 1, "name": "Royal Velvet Bouquet", "image": "/images/flower2.webp", "price": "Rp. 2,800,000" },
+    { "id": 2, "name": "Romantic Blushing Petals", "image": "/images/flower3.webp", "price": "Rp. 1,000,000" },
+    { "id": 3, "name": "Beautiful Rainbow Baby Breathe", "image": "/images/flower4.webp", "price": "Rp. 1,500,000" },
+    { "id": 4, "name": "Pink Blush Baby Breathe Bouquet", "image": "/images/flower5.webp", "price": "Rp. 1,200,000" },
+    { "id": 5, "name": "Azure Elegance Bouquet", "image": "/images/flower6.webp", "price": "Rp. 1,700,000" },
+    { "id": 6, "name": "Ocean Blue Baby Breathe Bouquet", "image": "/images/flower7.webp", "price": "Rp. 1,450,000" }
   ],
   status: 'succeeded',
   error: null,
