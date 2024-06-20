@@ -10,18 +10,18 @@ const Home: React.FC = () => {
       <div className="home-content flex flex-wrap justify-center gap-8">
         <div className="flower-block w-full md:w-1/3 text-center p-4">
           <img src="/images/flower4.png" alt="Flower 1" width="200" height="300" className="w-full h-auto object-cover rounded-lg mb-4" />
-          <h2 className="text-xl font-semibold text-[#5f5e7a]">azure elegon bouquet</h2>
+          <h2 className="text-xl font-semibold text-[#5f5e7a]">Azure Elegance Bouquet</h2>
         </div>
         <div className="flower-block w-full md:w-1/3 text-center p-4">
           <img src="/images/flower2.png" alt="Flower 2" width="200" height="300" className="w-full h-auto object-cover rounded-lg mb-4" />
-          <h2 className="text-xl font-semibold text-[#5f5e7a]">romantic blushing petals</h2>
+          <h2 className="text-xl font-semibold text-[#5f5e7a]">Romantic Blushing Petals</h2>
         </div>
         <div className="flower-block w-full md:w-1/3 text-center p-4">
           <img src="/images/flower3.png" alt="Flower 3" width="200" height="300" className="w-full h-auto object-cover rounded-lg mb-4" />
-          <h2 className="text-xl font-semibold text-[#5f5e7a]">royal velvet bouquet</h2>
+          <h2 className="text-xl font-semibold text-[#5f5e7a]">Royal Velvet Bouquet</h2>
         </div>
       </div>
-      <a href="/catalogue" className="home-link inline-block mt-8 text-lg text-[#5f5e7a] underline">see more</a>
+      <a href="/catalogue" className="home-link inline-block mt-8 text-lg text-[#5f5e7a] underline">See more</a>
     </div>
   );
 };
