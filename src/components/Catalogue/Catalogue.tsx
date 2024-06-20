@@ -1,4 +1,3 @@
-// Import necessary modules
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState, AppDispatch } from '../../store';
@@ -12,7 +11,8 @@ const Catalogue: React.FC = () => {
     const fetchData = async () => {
       dispatch(setStatus('loading'));
       try {
-        const response = await fetch('http://localhost:5000/catalogue');
+        // Use the deployed Vercel URL for the API
+        const response = await fetch('https://your-vercel-url/api/catalogue');
         const contentType = response.headers.get('content-type');
         
         if (contentType && contentType.includes('application/json')) {
