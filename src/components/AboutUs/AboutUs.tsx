@@ -1,25 +1,25 @@
 import React from 'react';
 
 const teamMembers = [
-  {
+ {
     name: 'Carrie Gonzales',
-    image: 'https://randomuser.me/api/portraits/lego/1.jpg',
+    image: 'https://randomuser.me/api/portraits/women/1.jpg',
   },
   {
     name: 'Roberta Burton',
-    image: 'https://randomuser.me/api/portraits/lego/2.jpg',
+    image: 'https://randomuser.me/api/portraits/women/2.jpg',
   },
   {
     name: 'Gordon Austin',
-    image: 'https://randomuser.me/api/portraits/lego/3.jpg',
+    image: 'https://randomuser.me/api/portraits/men/3.jpg',
   },
   {
     name: 'Carrie Willis',
-    image: 'https://randomuser.me/api/portraits/lego/4.jpg',
+    image: 'https://randomuser.me/api/portraits/women/4.jpg',
   },
   {
     name: 'Peter Fleming',
-    image: 'https://randomuser.me/api/portraits/lego/5.jpg',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
 ];
 
