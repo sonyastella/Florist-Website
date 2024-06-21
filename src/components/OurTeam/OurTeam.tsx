@@ -16,7 +16,7 @@ const OurTeam: React.FC = () => {
   useEffect(() => {
     const fetchTeamMembers = async () => {
       try {
-        const response = await fetch('https://randomuser.me/api/?lego&results=5');
+        const response = await fetch('https://randomuser.me/api/?results=5');
         const data = await response.json();
         setTeamMembers(data.results);
       } catch (error) {
